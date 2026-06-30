@@ -12,11 +12,11 @@ Based on the teacher's review, the following issues must be addressed before res
 
 ---
 
-## 2. Literature Review
-- [ ] Expand references from 5 to a minimum of **15–20 sources** (MSc standard)
-- [ ] Add dedicated coverage of: **SHAP**, **LIME**, and **Explainable AI in cardiovascular prediction**
-- [ ] Identify a clear **research gap** — what is missing in prior work that this study fills
-- [ ] Justify why SMOTE + multiple models + SHAP + CRISP-DM together is a meaningful contribution
+## 2. Literature Review ✅ DONE in work doc
+- [x] Expand references from 5 to a minimum of **15–20 sources** — work doc has 37 IEEE-formatted references
+- [x] Add dedicated coverage of: **SHAP**, **LIME**, and **Explainable AI in cardiovascular prediction**
+- [x] Identify a clear **research gap** — covered in Section D (Synthesis and Research Gap)
+- [x] Justify why SMOTE + multiple models + SHAP + CRISP-DM together is a meaningful contribution
 
 ---
 
@@ -46,6 +46,7 @@ Based on the teacher's review, the following issues must be addressed before res
 - [ ] Write a dedicated **Conclusion section** (currently missing)
 - [ ] Acknowledge at least **3–4 limitations**: dataset size, single-centre data, binary target, generalisability
 - [ ] Remove or tighten the loosely written legal/ethical/project management sections
+- [ ] **Fix stale AUC figure in conclusion:** work doc abstract and conclusion state "Logistic Regression and SVM achieved AUC 0.960" — this contradicts the actual results (RF best test AUC = 0.917, SVM best recall = 0.902); update the conclusion to match real numbers
 
 ---
 

@@ -33,24 +33,9 @@ Before touching the paper, make sure the actual experiment is complete and repro
 
 ---
 
-## Phase 2 — Expand the Literature Review (Day 2–3)
+## Phase 2 — Expand the Literature Review ~~(Day 2–3)~~ ✅ DONE
 
-**Step 2.1 — Find 15–20 sources minimum**
-Use Google Scholar. Search for:
-- "heart disease prediction machine learning" (find 3–4 papers)
-- "SHAP explainability clinical decision" (find 3–4 papers)
-- "LIME medical prediction" (find 2–3 papers)
-- "SMOTE class imbalance medical" (find 2–3 papers)
-- "CRISP-DM health informatics" (find 1–2 papers)
-- UCI Cleveland dataset papers (find 2–3 papers)
-
-**Step 2.2 — Identify the research gap**
-After reading the papers, write 2–3 sentences that answer:
-> "Most existing studies do X, but none combine Y and Z together, which is what this study does."
-
-**Step 2.3 — Rewrite the literature review section**
-- Organise into sub-sections (same structure as current: A, B, C, D)
-- Each sub-section should cite 3–5 papers and end with what is still missing
+The work doc already contains 37 references with full IEEE citations and dedicated coverage of SHAP, LIME, SMOTE, and XAI in cardiovascular prediction. **Skip this phase entirely.**
 
 ---
 
@@ -75,8 +60,9 @@ Work section by section in this order:
 
 **Step 3.3 — Discussion**
 - Write at least one paragraph per model explaining performance relative to others
-- Explain why Logistic Regression and SVM achieved the highest AUC (0.960)
-- Explain why Random Forest had the best precision/recall balance
+- Explain why Random Forest achieved the highest test AUC (0.917) and best precision/recall balance
+- Explain why SVM had the highest recall (0.902) — most clinically conservative (fewest missed diagnoses)
+- **Fix the conclusion:** the work doc incorrectly states "Logistic Regression and SVM achieved AUC 0.960" — this is a stale figure from an earlier experiment; the actual best test AUC is Random Forest at 0.917
 - Connect SHAP findings back to clinical literature (asymptomatic chest pain, thalassemia, vessel count)
 
 **Step 3.4 — Conclusion** (new section — currently missing)
@@ -136,12 +122,12 @@ git push
 
 ---
 
-## Summary Timeline
+## Summary Timeline (Updated)
 
 | Day | Work |
 |-----|------|
 | 1–2 | Re-run experiments, generate all missing figures and tables |
-| 2–3 | Expand literature review to 15–20 sources, identify research gap |
-| 3–5 | Rewrite methodology, results, discussion, and add conclusion section |
-| 5–6 | Fix presentation: author name, numbering, references, language |
-| 6–7 | Final self-review, commit to GitHub, submit |
+| ~~2–3~~ | ~~Expand literature review~~ — **DONE** (37 references already in work doc) |
+| 2–4 | Rewrite methodology, results, discussion, and fix conclusion |
+| 4–5 | Fix presentation: author name, numbering, references, language |
+| 5–6 | Final self-review, commit to GitHub, submit |
